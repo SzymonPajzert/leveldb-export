@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "leveldb-export"
-version = "0.1.1"
+version = "0.1.2"
 description = "Package to export documents from LevelDB export (for instance Firestore)."
 authors = ["Joël Luijmes <me@joell.dev>"]
 license = "MIT"
@@ -10,9 +10,9 @@ repository = "https://github.com/joelluijmes/leveldb-export"
 keywords = ["firestore", "leveldb", "export", "firestore-export", "leveldb-export"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 appengine-python-standard = "^0.3.1"
-protobuf = "^3.15.8"
+protobuf = "^6.0.0"
 google-crc32c = "^1.1.2"
 
 [tool.poetry.group.dev.dependencies]
