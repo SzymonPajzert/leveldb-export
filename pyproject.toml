@@ -15,7 +15,7 @@ appengine-python-standard = "^0.3.1"
 protobuf = "^3.15.8"
 google-crc32c = "^1.1.2"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 black = "^21.12b0"
 
 [build-system]
