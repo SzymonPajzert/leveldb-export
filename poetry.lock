@@ -2,20 +2,21 @@
 
 [[package]]
 name = "appengine-python-standard"
-version = "0.3.1"
+version = "1.1.10"
 description = "Google App Engine services SDK for Python 3"
 optional = false
-python-versions = ">=3.6, <4"
+python-versions = "<4,>=3.6"
 groups = ["main"]
 files = [
-    {file = "appengine-python-standard-0.3.1.tar.gz", hash = "sha256:691e5008f828daa27ccc5531e67cf57919ff4f5e6c2c6c9eafd6700548c28af1"},
-    {file = "appengine_python_standard-0.3.1-py3-none-any.whl", hash = "sha256:f79525a489588ec91f1c6e191b333b25ee99eb956710006525d2a494fc54ceec"},
+    {file = "appengine_python_standard-1.1.10-py3-none-any.whl", hash = "sha256:3cadab50db5a83421627282e4b8213c31f8f66fe52077fd1448e8da96b8e184f"},
+    {file = "appengine_python_standard-1.1.10.tar.gz", hash = "sha256:2682cafa4d4d409a290268e4ef5066ebe9486f8543384d56632ca38fe4a2fdf7"},
 ]
 
 [package.dependencies]
 attrs = ">=21.2.0"
 frozendict = ">=1.2"
 google-auth = ">=1.31.0"
+legacy-cgi = {version = ">=2.6.2", markers = "python_version >= \"3.10\""}
 mock = ">=4.0.3"
 Pillow = ">=8.3.1"
 protobuf = ">=3.19.0"
@@ -242,6 +243,19 @@ groups = ["main"]
 files = [
     {file = "idna-3.3-py3-none-any.whl", hash = "sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff"},
     {file = "idna-3.3.tar.gz", hash = "sha256:9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d"},
+]
+
+[[package]]
+name = "legacy-cgi"
+version = "2.6.4"
+description = "Fork of the standard library cgi and cgitb modules removed in Python 3.13"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+markers = "python_version >= \"3.10\""
+files = [
+    {file = "legacy_cgi-2.6.4-py3-none-any.whl", hash = "sha256:7e235ce58bf1e25d1fc9b2d299015e4e2cd37305eccafec1e6bac3fc04b878cd"},
+    {file = "legacy_cgi-2.6.4.tar.gz", hash = "sha256:abb9dfc7835772f7c9317977c63253fd22a7484b5c9bbcdca60a29dcce97c577"},
 ]
 
 [[package]]
@@ -585,4 +599,4 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.9"
-content-hash = "412442303c60aaf955fba87c6c01616d86dc58a159bdc0733963684f846cb6af"
+content-hash = "a9a0f9f36736a1f0033f9175d0eb62e46a38121a0c5d8148832b06cdb75a3fb4"

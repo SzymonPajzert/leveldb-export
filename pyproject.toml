@@ -11,7 +11,7 @@ keywords = ["firestore", "leveldb", "export", "firestore-export", "leveldb-expor
 
 [tool.poetry.dependencies]
 python = "^3.9"
-appengine-python-standard = "^0.3.1"
+appengine-python-standard = "^1.0.0"
 protobuf = "^6.0.0"
 google-crc32c = "^1.1.2"
 
